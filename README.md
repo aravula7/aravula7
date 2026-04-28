@@ -40,24 +40,6 @@ Fine-tuned Qwen2.5-3B for PostgreSQL text-to-SQL generation
 - **Results:** 100% SQL parseability, 15% exact-match (4x better than GPT-4o-mini)
 - **Published:** FP16 (6GB), INT8 (3GB), LoRA adapter (50MB) on HuggingFace Hub
 
-### [Edge AI Gym Pose Tracker](https://github.com/aravula7/edge-ai-pose-tracker)
-Real-time squat form analysis using computer vision
-- **Tech:** MoveNet, U-Net, FastAPI, WebSocket, TensorBoard, ONNX
-- **Results:** 5-10 FPS processing, sub-200ms latency, 5 warning types
-- **Features:** EMA smoothing, confidence gating, hysteresis rep counter
-
-### [ETL Pipeline with Airflow & PySpark](https://github.com/aravula7/etl-pipeline)
-Production data engineering pipeline for e-commerce analytics
-- **Tech:** Apache Airflow, PySpark, dbt, Snowflake, Kafka
-- **Scale:** 211K→285K records, 4 DAGs, 99.3% data quality
-- **Features:** Dimensional modeling, real-time streaming, sub-minute latency
-
-### [Customer Analytics Suite](https://github.com/aravula7/customer-analytics)
-End-to-end churn prediction and demand forecasting
-- **Tech:** XGBoost, LightGBM, PyTorch, Prophet, LSTM, MLflow, FastAPI
-- **Results:** AUROC 0.86 (churn), MAPE 9.4% (forecasting)
-- **Deployment:** INT8 quantization, sub-10ms latency, K8s orchestration
-
 ---
 
 ## 🛠️ Tech Stack
